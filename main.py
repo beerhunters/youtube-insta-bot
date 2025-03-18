@@ -237,4 +237,5 @@ if __name__ == "__main__":
 
 # docker build -t youtube-insta-bot .
 # docker run -d --name bot-container youtube-insta-bot
+# docker run -d --name bot-container --restart unless-stopped -e BOT_TOKEN="8114901552:AAHiaLk8o50brY2vG0dUbaxh9H6E9h-qPWQ" youtube-insta-bot
 # docker logs bot-container
