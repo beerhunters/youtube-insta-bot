@@ -90,4 +90,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
   - Built with love and coffee ☕
   - Thanks to the open-source communities behind aiogram, yt-dlp, and instaloader. 
 
-Made by [Beerhunters](https://t.me/beerhunters) | [GitHub Profile](https://github.com/beerhunters/youtube-insta-bot.git) | 2025
+Made by [Beerhunters](https://t.me/beerhunters) | [GitHub Profile](https://github.com/beerhunters/) | 2025
