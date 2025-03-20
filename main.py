@@ -135,8 +135,11 @@ async def download_video(message: types.Message):
                 "outtmpl": "%(title)s.%(ext)s",
                 "merge_output_format": "mp4",
                 "noplaylist": True,
-                "retries": 5,
-                "retry_sleep": 5,
+                "retries": 10,
+                "retry_sleep": 30,
+                "http_headers": {
+                    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+                },
             }
 
             for i in range(3):
